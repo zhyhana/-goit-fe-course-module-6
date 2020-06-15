@@ -137,7 +137,6 @@ img {
 body {
   line-height: 1.2;
   background-color: rgb(255, 255, 255);
-  width: 1920px;
 }
 
 .visually-hidden {
@@ -151,9 +150,6 @@ body {
   clip: rect(0, 0, 0, 0);
   clip-path: inset(50% 50% 50% 50%);
   margin: -1px;
-}
-* {
-  outline: 1px solid red;
 }
 .header {
   padding: 23px 0 23px;
@@ -426,4 +422,5 @@ body {
   color: rgb(255, 255, 255);
   background-color: #95e1d3;
   border: none;
+  cursor: pointer;
 }
